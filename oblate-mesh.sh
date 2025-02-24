@@ -1,0 +1,1 @@
+./cubed-sphere -o oblate-hex.vtk -n 30 -m 32 -R 1 -b 0.007 -i 0.036 -t 1 -E 0.9

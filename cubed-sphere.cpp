@@ -222,8 +222,8 @@ int main(int argc, char **argv)
     cube.x_max = S_cube / 2.0;
     cube.y_min = -S_cube / 2.0;
     cube.y_max = S_cube / 2.0;
-    cube.z_min = -S_cube / 2.0/ (sqrt(1-Ec*Ec));
-    cube.z_max = S_cube / 2.0/ (sqrt(1-Ec*Ec));
+    cube.z_min = -S_cube / 2.0 * (sqrt(1-Ec*Ec));
+    cube.z_max = S_cube / 2.0 * (sqrt(1-Ec*Ec));
     
     vector<Point> nodes(N_node);
     vector<Element> elements(N_elem);
